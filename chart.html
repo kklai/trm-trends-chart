@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<h1>TRM / AIG data analysis</h1>
+
+	<p>The dataset consists of 25,811 number of cases over the span of 10 years, from Oct. 2011 to Nov. 2021. </p>
+
+	<p class="hed">Case Duration</p>
+	<p>Most commonly, cases last between 2 to 8 months. 72% of cases are closed within a year. 91% of cases are closed within 2 years. </p>
+	<div class="duration-chart"></div>
+
+
+	<p class="hed">Average Cost By Case, By Month</p>
+	<p>When comparing the "Total Claims Paid Amount With Recovery" by the duration of the case, the cost increases linearly with months. But when cases last for more than 2 years, the cost varies a lot without a clear trend.</p>
+	<p></p>
+	<div class="cost-chart"></div>
+
+
+	<div class="chart"></div>
+
+	<script src="d3_.js"></script>
+	<script src="script.js"></script>
+	<script src="duration.js"></script>
+	<script src="cost.js"></script>
+</body>
+</html>
